@@ -1,0 +1,11 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_content">
+
+    <ListContainer
+        ohos:id="$+id:calendar_list_view"
+        ohos:width="match_parent"
+        ohos:height="match_parent" />
+
+</DirectionalLayout>

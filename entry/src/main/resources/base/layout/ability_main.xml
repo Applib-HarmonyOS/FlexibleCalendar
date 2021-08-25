@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+            xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            xmlns:tools="http://schemas.huawei.com/tools"
+          ohos:id="$+id:fragment"
+          ohos:name="com.p_v.flexiblecalendarexample.CalendarActivityFragment"
+          ohos:width="match_parent"
+          ohos:height="match_parent"
+          tools:layout="$layout:fragment_calendar"
+          tools:ignore="Instantiatable"
+           />

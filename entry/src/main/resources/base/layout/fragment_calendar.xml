@@ -1,0 +1,152 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:support="http://schemas.huawei.com/apk/res-auto"
+    xmlns:tools="http://schemas.huawei.com/tools"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:alignment="vertical"
+    ohos:background_element="$graphic:colo_light_grey_element"
+    tools:context="com.pv.flexiblecalendarexample.slice.CalendarActivityFragment">
+
+    <com.pv.flexiblecalendar.FlexibleCalendarView
+        ohos:id="$+id:calendar_view"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$color:color_Black"
+        ohos:bottom_padding="22vp"
+        support:startDayOfTheWeek="WEDNESDAY" />
+
+    <DependentLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal"
+        >
+
+        <Button
+            ohos:id="$+id:move_to_previous_date"
+            ohos:align_parent_left="true"
+            ohos:align_parent_top="true"
+            ohos:start_margin="10vp"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:left_padding="15vp"
+            ohos:right_padding="15vp"
+            ohos:text_color="$color:color_white"
+            ohos:background_element="$graphic:color_black_rectangle"
+            ohos:text_alignment="center"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text_size="28fp"
+            ohos:text="Move To Previous Date"/>
+
+
+
+        <Button
+            ohos:id="$+id:move_to_next_date"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:start_margin="10vp"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:left_padding="25vp"
+            ohos:right_padding="25vp"
+            ohos:text_color="$color:color_white"
+            ohos:background_element="$graphic:color_black_rectangle"
+            ohos:end_of="$id:move_to_previous_date"
+            ohos:text_alignment="center"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text_size="30fp"
+            ohos:text="Move to Next Date"/>
+
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:move_to_previous_month"
+            ohos:align_parent_left="true"
+            ohos:align_parent_top="true"
+            ohos:start_margin="10vp"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:left_padding="25vp"
+            ohos:right_padding="25vp"
+            ohos:text_color="$color:color_white"
+            ohos:background_element="$graphic:color_black_rectangle"
+            ohos:text_alignment="center"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text_size="30fp"
+            ohos:text="Move to previous month"/>
+
+        <Button
+            ohos:id="$+id:move_to_next_month"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:start_margin="10vp"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:left_padding="25vp"
+            ohos:right_padding="25vp"
+            ohos:text_color="$color:color_white"
+            ohos:background_element="$graphic:color_black_rectangle"
+            ohos:end_of="$+id:move_to_previous_month"
+            ohos:text_alignment="center"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text_size="30fp"
+            ohos:text="Move to next month" />
+
+    </DependentLayout>
+
+    <Button
+        ohos:id="$+id:go_to_current_day"
+        ohos:top_padding="10vp"
+        ohos:bottom_padding="10vp"
+        ohos:start_margin="10vp"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_margin="20vp"
+        ohos:left_padding="250vp"
+        ohos:right_padding="250vp"
+        ohos:text_size="30fp"
+        ohos:text_color="$color:color_white"
+        ohos:background_element="$graphic:color_black_rectangle"
+        ohos:center_in_parent="true"
+        ohos:text="Go to current month" />
+
+    <Button
+        ohos:id="$+id:show_dates_outside_month"
+        ohos:top_padding="10vp"
+        ohos:bottom_padding="10vp"
+        ohos:start_margin="10vp"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_margin="20vp"
+        ohos:left_padding="220vp"
+        ohos:right_padding="220vp"
+        ohos:text_size="30fp"
+        ohos:text_color="$color:color_white"
+        ohos:background_element="$graphic:color_black_rectangle"
+        ohos:center_in_parent="true"
+        ohos:text="Show dates outside month" />
+
+</DirectionalLayout>

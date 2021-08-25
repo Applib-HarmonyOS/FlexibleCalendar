@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:drawable="$graphic:background_example4"
+    ohos:insetBottom="6vp"
+    ohos:insetLeft="9vp"
+    ohos:insetRight="9vp"
+    ohos:insetTop="6vp" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state-container
+xmlns:ohos="http://schemas.huawei.com/res/ohos"
+xmlns:p-v="http://schemas.huawei.com/res-auto">
+<item ohos:element="$graphic:cell_gray_background" p-v:state_date_regular="true" />
+<item ohos:element="$graphic:calendar1_selected" p-v:state_date_today="true" />
+<item ohos:element="$graphic:cell_red_background" p-v:state_date_selected="true" />
+</state-container>

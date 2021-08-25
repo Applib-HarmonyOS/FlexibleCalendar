@@ -1,0 +1,110 @@
+{
+  "color": [
+
+    {
+      "name": "holo_red_dark",
+      "value": "#FF0000"
+    },
+    {
+      "name": "holo_green_dark",
+      "value": "#00FF00"
+    },
+    {
+      "name": "holo_green_light",
+      "value": "#ff99cc00"
+    },
+    {
+      "name": "color_blue",
+      "value": "#007dff"
+    },
+    {
+      "name": "color_yellow",
+      "value": "#FFFF00"
+    },
+    {
+      "name": "color_pink",
+      "value": "#FF00FF"
+    },
+    {
+      "name": "color_Black",
+      "value": "#555555"
+    },
+    {
+      "name": "black",
+      "value": "#555555"
+    },
+    {
+      "name": "color_white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "holo_blue_light",
+      "value": "blue"
+    },
+    {
+      "name": "holo_purple",
+      "value": "#ffaa66cc"
+    },
+    {
+      "name": "holo_orange_light",
+      "value": "#ffffbb33"
+    },
+    {
+      "name": "holo_orange_dark",
+      "value": "#ffff8800"
+    },
+    {
+      "name": "BLUE",
+      "value": "blue"
+    },
+    {
+      "name": "title_text_color_activity_1",
+      "value": "black"
+    },
+    {
+      "name": "action_bar_color_activity_1",
+      "value": "#E6E6CD"
+    },
+    {
+      "name": "date_outside_month_text_color_activity_1",
+      "value": "#A1F5FF"
+    },
+    {
+      "name": "background_name_of_dayweek_bar",
+      "value": "#E6E6CD"
+    },
+    {
+      "name": "text_name_of_dayweek_bar",
+      "value": "black"
+    },
+
+    {
+      "name": "darker_gray",
+      "value": "#A9A9A9"
+    },
+    {
+      "name": "material_blue_grey_900",
+      "value": "#ff263238"
+
+    },
+    {
+      "name": "foreground_inverse_material_dark",
+      "value": "darkblue"
+
+    },
+    {
+      "name": "bright_foreground_inverse_material_dark",
+      "value": "dimgray"
+
+    },
+    {
+      "name": "holo_red_light",
+      "value": "#ffff4444"
+    },
+    {
+      "name": "transparent",
+      "value": "#0000ffff"
+    }
+  ]
+
+}

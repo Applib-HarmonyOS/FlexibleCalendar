@@ -591,7 +591,6 @@ public class FlexibleCalendarView extends DirectionalLayout implements
      * Set the start day of week.
      *
      * <p>Set the start day of week.</p>
-     *
      * SUNDAY = 1,
      * MONDAY = 2,
      * TUESDAY = 3,

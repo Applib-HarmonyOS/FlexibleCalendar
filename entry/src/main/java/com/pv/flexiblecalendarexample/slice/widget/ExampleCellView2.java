@@ -4,7 +4,6 @@ import ohos.agp.components.AttrSet;
 import ohos.agp.components.Component;
 import ohos.agp.render.Canvas;
 import ohos.agp.render.Paint;
-import ohos.agp.utils.Rect;
 import ohos.app.Context;
 import ohos.global.resource.NotExistException;
 import ohos.global.resource.WrongTypeException;

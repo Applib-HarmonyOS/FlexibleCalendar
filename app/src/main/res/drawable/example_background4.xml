@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:p-v="http://schemas.android.com/apk/res-auto">
-    <item android:drawable="@drawable/today_example4" p-v:state_date_today="true" />
-    <item android:drawable="@drawable/selected_example4" p-v:state_date_selected="true" />
-</selector>

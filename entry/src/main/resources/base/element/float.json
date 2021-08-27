@@ -1,0 +1,28 @@
+{
+  "float": [
+    {
+      "name": "float_1",
+      "value": "30.6"
+    },
+    {
+      "name": "activity_horizontal_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "activity_vertical_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "example_cell_view_event_radius",
+      "value": "3vp"
+    },
+    {
+      "name": "example_cell_view_event_spacing",
+      "value": "2vp"
+    },
+    {
+      "name": "size_text_days_of_month",
+      "value": "14vp"
+    }
+  ]
+}

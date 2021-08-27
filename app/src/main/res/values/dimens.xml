@@ -1,8 +1,0 @@
-<resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="example_cell_view_event_radius">3dp</dimen>
-    <dimen name="example_cell_view_event_spacing">2dp</dimen>
-    <dimen name="size_text_days_of_month">14sp</dimen>
-</resources>

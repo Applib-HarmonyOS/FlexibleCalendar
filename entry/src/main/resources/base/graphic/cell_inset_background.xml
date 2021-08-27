@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:element="$graphic:cell_background"
+    ohos:insetLeft="10vp"
+    ohos:insetRight="10vp" />

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer_list xmlns:ohos="http://schemas.huawei.com/res/ohos">
+    <item>
+        <shape xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:shape="oval">
+            <corners ohos:radius="5dp" />
+        </shape>
+    </item>
+    <item
+        ohos:bottom="10vp"
+        ohos:left="10vp"
+        ohos:right="10vp"
+        ohos:top="10vp">
+        <shape xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:shape="oval">
+            <size
+                ohos:width="5vp"
+                ohos:height="5vp" />
+            <stroke
+                ohos:width="2vp"
+                ohos:color="$color:material_blue_grey_900" />
+            <solid ohos:color="$color:holo_green_light" />
+        </shape>
+    </item>
+</layer_list>

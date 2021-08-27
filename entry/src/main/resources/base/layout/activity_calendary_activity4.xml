@@ -1,0 +1,62 @@
+<DirectionalLayout
+    xmlns:tools="http://schemas.huawei.com/tools"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical"
+    tools:context="com.pv.flexiblecalendarexample.CalendarActivity4">
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$color:holo_purple"
+        ohos:layout_alignment="center"
+        ohos:alignment="center"
+        ohos:orientation="horizontal"
+        ohos:padding="5vp">
+
+        <Image
+            ohos:id="$+id:left_arrow"
+            ohos:width="20vp"
+            ohos:height="40vp"
+            ohos:background_element="$media:left_arrow" />
+
+        <Text
+            ohos:id="$+id:month_text_view"
+            ohos:width="match_content"
+            ohos:height="match_parent"
+            ohos:layout_alignment="center"
+            ohos:padding="5vp"
+            ohos:text_color="$color:holo_orange_light"
+            ohos:text_size="22vp"
+            ohos:text_font="bold" />
+
+        <Image
+            ohos:id="$+id:right_arrow"
+            ohos:width="20vp"
+            ohos:height="40vp"
+            ohos:background_element="$media:right_arrow" />
+
+    </DirectionalLayout>
+
+    <com.pv.flexiblecalendar.FlexibleCalendarView
+        ohos:id="$+id:calendar_view"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$color:darker_gray" />
+
+    <Button
+        ohos:id="$+id:reset_button"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="Go to current month"
+        ohos:left_margin="5vp"
+        ohos:right_margin="5vp"
+        ohos:text_size="20fp"
+        ohos:top_padding="5vp"
+        ohos:bottom_padding="5vp"
+        ohos:text_color="$color:color_white"
+        ohos:background_element="$graphic:cell_gray_background"/>
+
+</DirectionalLayout>
+

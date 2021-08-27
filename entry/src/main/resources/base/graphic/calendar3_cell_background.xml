@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state-container
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:flexible="http://schemas.huawei.com/apk/res-auto">
+    <item ohos:element="$graphic:cell_purple_background" flexible:state_date_regular="true" />
+    <item ohos:element="$graphic:cell_gray_background" flexible:state_date_today="true" />
+    <item ohos:elemet="$graphic:cell_red_background" flexible:state_date_selected="true" />
+    <item ohos:element="$graphic:cell_blue_background" flexible:state_date_outside_month="true" />
+</state-container>

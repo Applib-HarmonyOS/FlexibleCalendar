@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:tools="http://schemas.huawei.com/tools"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:bottom_padding="$float:activity_vertical_margin"
+    ohos:left_padding="$float:activity_horizontal_margin"
+    ohos:right_padding="$float:activity_horizontal_margin"
+    ohos:top_padding="$float:activity_vertical_margin"
+    tools:context="com.pv.flexiblecalendarexample.CalendarActivity5">
+
+    <com.pv.flexiblecalendar.FlexibleCalendarView
+        ohos:id="$+id:calendar_view"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$color:darker_gray" />
+
+</DirectionalLayout>

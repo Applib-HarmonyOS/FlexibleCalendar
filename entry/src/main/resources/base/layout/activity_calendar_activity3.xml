@@ -1,0 +1,36 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:flexible="http://schemas.huawei.com/hap/res-auto"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical">
+
+    <com.pv.flexiblecalendar.FlexibleCalendarView
+        ohos:id="$+id:calendar_view"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$color:darker_gray"
+        flexible:disableAutoDateSelection="true" />
+
+    <Button
+        ohos:id="$+id:update_events_button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Update Events"
+        ohos:text_alignment="center"
+        ohos:left_margin="5vp"
+        ohos:right_margin="5vp"
+        ohos:text_size="20fp"
+        ohos:top_padding="5vp"
+        ohos:bottom_padding="5vp"
+        ohos:text_color="$color:color_white"
+        ohos:background_element="$graphic:cell_gray_background"
+        />
+
+    <DatePicker
+        ohos:id="$+id:date_picker"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="Select date" />
+
+</DirectionalLayout>

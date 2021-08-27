@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="horizontal">
+
+    <Text
+        ohos:id="$+id:time"
+        ohos:width="match_content"
+        ohos:height="match_content" />
+    <Text
+        ohos:id="$+id:event_title"
+        ohos:width="match_content"
+        ohos:height="match_content" />
+</DirectionalLayout>

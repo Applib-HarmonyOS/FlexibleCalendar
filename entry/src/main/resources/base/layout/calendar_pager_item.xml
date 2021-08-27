@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListContainer
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent" />

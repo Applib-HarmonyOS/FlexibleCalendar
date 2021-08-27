@@ -121,6 +121,7 @@ public class CalendarListActivity extends AbilitySlice {
             final Text text = (Text) calList.findComponentById(ResourceTable.Id_text_view);
             text.setText(calendarListAdapter.get(pos));
             text.setId(pos);
+            text.setTextSize(75);
             text.setClickedListener(component1 -> {
                 int id = component1.getId();
                 checkIntent(id);

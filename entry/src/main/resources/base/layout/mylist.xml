@@ -7,7 +7,7 @@
 
     <Text
         ohos:id="$+id:text_view"
-        ohos:height="50vp"
+        ohos:height="75vp"
         ohos:width="match_content"
         ohos:margin="2fp"
         ohos:text_alignment="left"

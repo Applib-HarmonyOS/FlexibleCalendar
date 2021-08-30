@@ -114,8 +114,8 @@ public class CalendarListActivity extends AbilitySlice {
          * @return component
          */
         @Override
-        public Component getComponent(final int pos, final Component component
-                                      , final ComponentContainer componentContainer) {
+        public Component getComponent(final int pos, final Component component,
+                                      final ComponentContainer componentContainer) {
             final Component calList = LayoutBoost.inflate(this.adapterContext, ResourceTable
                                                  .Layout_mylist, componentContainer, false);
             final Text text = (Text) calList.findComponentById(ResourceTable.Id_text_view);

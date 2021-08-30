@@ -42,8 +42,8 @@ import java.util.List;
 /**
  * CalendarActivityFragment.
  */
-public class CalendarActivityFragment extends Fraction implements FlexibleCalendarView.OnMonthChangeListener
-                                              , FlexibleCalendarView.OnDateClickListener {
+public class CalendarActivityFragment extends Fraction implements FlexibleCalendarView.OnMonthChangeListener,
+        FlexibleCalendarView.OnDateClickListener {
     /**
      * container.
      */
@@ -94,8 +94,8 @@ public class CalendarActivityFragment extends Fraction implements FlexibleCalend
      * @param intent    intent
      */
     @Override
-    protected Component onComponentAttached(final LayoutScatter scatter, final ComponentContainer container
-                                            , final Intent intent) {
+    protected Component onComponentAttached(final LayoutScatter scatter, final ComponentContainer container,
+                                            final Intent intent) {
         scatter.parse(ResourceTable.Layout_fragment_calendar, container, false);
         updateTitle(calendarView.getSelectedDateItem().getYear(), calendarView.getSelectedDateItem().getMonth());
         return super.onComponentAttached(scatter, container, intent);
@@ -108,8 +108,8 @@ public class CalendarActivityFragment extends Fraction implements FlexibleCalend
      */
     @Override
     public Component getComponent() {
-        Component component = LayoutBoost.inflate(this.context, ResourceTable.Layout_fragment_calendar, this.container
-                                                 , false);
+        Component component = LayoutBoost.inflate(this.context, ResourceTable.Layout_fragment_calendar,
+                this.container, false);
         initView(component);
         return super.getComponent();
     }
@@ -124,14 +124,14 @@ public class CalendarActivityFragment extends Fraction implements FlexibleCalend
         calendarView.setCalendarView(new FlexibleCalendarView.CalendarView() {
 
             @Override
-            public BaseCellView getCellView(final int position, final Component convertView
-                                            , final ComponentContainer parent, final int cellType) {
+            public BaseCellView getCellView(final int position, final Component convertView,
+                                            final ComponentContainer parent, final int cellType) {
                 BaseCellView cellView = (BaseCellView) convertView;
 
                 if (cellView == null) {
                     LayoutScatter scatter = LayoutScatter.getInstance(getContext());
-                    cellView = (BaseCellView) scatter.parse(ResourceTable.Layout_calendar1_date_cell_view, parent
-                                , false);
+                    cellView = (BaseCellView) scatter.parse(ResourceTable.Layout_calendar1_date_cell_view,
+                            parent, false);
                 }
 
                 if (cellType == BaseCellView.OUTSIDE_MONTH) {
@@ -146,14 +146,14 @@ public class CalendarActivityFragment extends Fraction implements FlexibleCalend
             }
 
             @Override
-            public BaseCellView getWeekdayCellView(final int position, final Component convertView
-                                                   , final ComponentContainer parent) {
+            public BaseCellView getWeekdayCellView(final int position, final Component convertView,
+                                                   final ComponentContainer parent) {
                 BaseCellView cellView = (BaseCellView) convertView;
 
                 if (cellView == null) {
                     LayoutScatter scatter = LayoutScatter.getInstance(getContext());
-                    cellView = (SquareCellView) scatter.parse(ResourceTable.Layout_calendar1_week_cell_view, parent
-                                , false);
+                    cellView = (SquareCellView) scatter.parse(ResourceTable.Layout_calendar1_week_cell_view,
+                            parent, false);
                 }
                 return cellView;
             }

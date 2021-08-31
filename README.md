@@ -1,6 +1,7 @@
 # FlexibleCalendar
 =================
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_FlexibleCalendar&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_FlexibleCalendar)
+[![.github/workflows/main.yml](https://github.com/applibgroup/FlexibleCalendar/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/applibgroup/FlexibleCalendar/actions/workflows/main.yml)
 
 Introduction
 ------------

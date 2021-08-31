@@ -21,7 +21,7 @@
     ],
     "distro": {
       "deliveryWithInstall": true,
-      "moduleName": "library",
+      "moduleName": "flexiblecalendar",
       "moduleType": "har"
     }
   }

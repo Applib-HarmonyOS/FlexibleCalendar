@@ -19,19 +19,27 @@ Screenshot
 
 In order to use the library, add the following line to your **root** gradle file:
 
-I) For using FlexiCalnder module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
+I) For using FlexibleCalendar module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
 ```
 dependencies {
-        implementation project(':library')
+        implementation project(':flexiblecalendar')
         implementation fileTree(dir: 'libs', include: ['*.har'])
         testImplementation 'junit:junit:4.13'
 }
 ```
-II) For using FlexiCalendar in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
+II) For using FlexibleCalendar in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
 ```
 dependencies {
         implementation fileTree(dir: 'libs', include: ['*.har'])
         testImplementation 'junit:junit:4.12'
+}
+```
+III) For using FlexibleCalendar from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+```
+dependencies {
+        implementation 'dev.applibgroup:flexiblecalendar:1.0.0'
+        testImplementation 'junit:junit:4.13'
+        ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
 }
 ```
 

@@ -42,7 +42,6 @@ dependencies {
         ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
 }
 ```
-implementation 'dev.applibgroup:flexiblecalendar:1.0.0'
 
 Usage
 -----

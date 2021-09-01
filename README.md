@@ -22,7 +22,7 @@ In order to use the library, add the following line to your **root** gradle file
 I) For using FlexibleCalendar module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
 ```
 dependencies {
-        implementation project(':library')
+        implementation project(':flexiblecalendar')
         implementation fileTree(dir: 'libs', include: ['*.har'])
         testImplementation 'junit:junit:4.13'
 }
